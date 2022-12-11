@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === "production") {
 }
 app.use(
   cors({
-    origin: ["http://localhost:3000", "dobbyshow.com", "http://3.39.21.117"],
+    origin: ["http://localhost:3000", "dobbyshow.com", "http://54.180.137.66/"],
     credentials: true,
   })
 );
