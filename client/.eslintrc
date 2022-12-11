@@ -1,0 +1,40 @@
+{
+  "parser": "@typescript-eslint/parser", // ESLint 파서를 지정합니다.
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module" // import, export를 사용할 수 있습니다.
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "extends": ["airbnb", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["import", "react-hooks", "jsx-a11y"],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "object-curly-newline": "off",
+    "linebreak-style": "off",
+    "no-param-reassign": "off",
+    "arrow-body-style": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/require-default-props": "off",
+    "no-alert": "off",
+    "max-len": "off"
+  }
+}
